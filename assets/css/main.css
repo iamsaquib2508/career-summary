@@ -2744,7 +2744,7 @@ input, select, textarea {
 
 			#header > header .avatar {
 				display: block;
-				margin: 0 auto 2.25em auto;
+				margin: 0 auto 1.25em auto;
 				width: 8em;
 			}
 
@@ -2766,7 +2766,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			bottom: 0;
 			left: 0;
-			padding: 2em;
+			padding: 0.5em;
 			width: 100%;
 		}
 
@@ -2805,7 +2805,7 @@ input, select, textarea {
 						border: 0;
 						color: #ffffff !important;
 						display: block;
-						padding: 0.85em 0;
+						padding: 0.65em 0;
 						text-decoration: none;
 					}
 
@@ -2846,7 +2846,7 @@ input, select, textarea {
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+		padding: 2em 0 2em 0;
 	}
 
 		#footer .copyright {

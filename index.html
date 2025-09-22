@@ -7,7 +7,7 @@
 <!-- <img class="spotlight" alt="Image may contain:" style="width: 1080px; height: 546px;" aria-busy="false" src="images/banner2.jpg"> -->
 <html>
 	<head>
-		<title>About Me | Md. Mohaiminul Islam</title>
+		<title>About Me | Md Mohaiminul Islam</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="shortcut icon" type="image/x-icon" href="images/logo.svg" />
@@ -23,6 +23,24 @@
 			.bg {
 				background-color: rgb(206, 200, 200);
 			}
+			.hobby-list {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+
+			.hobby-list li {
+			position: relative;
+			padding-left: 2em; /* room for the icon */
+			}
+
+			.hobby-list li i {
+			position: absolute;
+			left: 0;         /* put in bullet area */
+			top: 25%;        /* vertically center */
+			transform: translateY(-50%);
+			/* color: #e63946;  style icon if you like */
+			}
 		</style>
 		<base target="_blank">
 	</head>
@@ -31,11 +49,10 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="images/BTW Bridge.png" alt="" /></span>
+					<span class="image avatar"><img src="images/Headshot.jpg" alt="" /></span>
 					<h1 id="logo">Md Mohaiminul Islam</h1>
-					<p>Master's in CS at UNB ('23-'24)<br/>
-					B.Sc. from BUET ('16-'21)<br/>
-					</p>
+					Master's in CS at UNB ('23-'25)<br/>
+					B.Sc. from BUET ('16-'21)					
 				</header>
 				<nav id="nav">
 					<ul>
@@ -52,8 +69,8 @@
 						<li><a target="_blank" href="https://github.com/iamsaquib2508" class="icon brands fa-github" ><span class="label">Github</span></a></li>
 						<li><a target="_blank" href="https://www.linkedin.com/in/saquib2508/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
 						<!-- <li><a target="_blank" href="https://facebook.com/saquib2508" class="icon brands fa-facebook-f" ><span class="label">Facebook</span></a></li> -->
-						<li><a target="_blank" href="https://www.quora.com/profile/Md-Mohaiminul-Islam-2" class="icon brands fa-quora" ><span class="label">Quora</span></a></li>
-						<li><a target="_blank" href="mailto:mohaimin.0312@unb.ca" class="icon solid fa-envelope" ><span class="label">Email</span></a></li>
+						<!-- <li><a target="_blank" href="https://www.quora.com/profile/Md-Mohaiminul-Islam-2" class="icon brands fa-quora" ><span class="label">Quora</span></a></li> -->
+						<li><a target="_blank" href="mailto:mohaimin0312sam@gmail.com" class="icon solid fa-envelope" ><span class="label">Email</span></a></li>
 					</ul>
 				</footer>
 			</section>
@@ -77,23 +94,25 @@
 									</header>
 									<p>Hello there! I am Md Mohaiminul Islam from Bangladesh. I have completed my B.Sc. Degree in
 										<b>Computer Science and Engineering</b> at <b> Bangladesh University of Engineering and Technology (BUET)</b>.
-										In Fall '23, I moved to Canada where I'm pursuing my Master's at <b>University of New Brunswick (UNB)</b>.
-										I am passionate about critical thinking, competitive programming and mathematical problems. Recently I have started to find some
-										interest in System Designing. <br/>
+										In Fall '23, I moved to <b>Canada</b> where I completed my Master's at <b>University of New Brunswick (UNB)</b>.
+										I am passionate about critical thinking, competitive programming and mathematical problems.<br/>
 
-										I used to participate in Mathematics and Informatics Olympiad in my high school days. After my graduation
+										I used to participate in Mathematics and Informatics Olympiad in my high school days. After my undergrad
 										in 2021, I joined <a href="https://www.enosisbd.com/" target="_blank">Enosis Solutions</a> as a Software Engineer where
 										I worked on <b>AngularJS</b>, <b>.NET MVC</b> and <b>.NET Web Form</b>. Later, I joined as a Software Engineer at 
 										<a href="https://research.samsung.com/srbd" target="_blank">Samsung R&amp;D Institute, Bangladesh</a>; where I worked 
 										in the Samsung Notes app team with <b>UWP (Universal Windows Platform)</b> framework. Along with my Master's 
-										degree, I worked as a <b>Teaching Assistant (TA)</b> at UNB for the course <b>CS1003 - Programming and Problem 
-										Solving for Engineers</b> on Fall '23. Later, I completed a winter internship in <a 
+										degree, I worked as a <b>Teaching Assistant (TA)</b> at UNB. Later, I completed a winter internship in <a 
 										href="https://nrc.canada.ca/en" target="_blank">National Research Council, Canada (NRC-CNRC)</a>
 										as a <b>research assistant (RA)</b>. <!-- <br/> -->
 
-										Right now, I am employed in another <b>RA position</b> in <a href="https://www.unb.ca/fredericton/cs/research/casatlantic/index.html" target="_blank">
+										I was employed in another <b>RA position</b> in <a href="https://www.unb.ca/fredericton/cs/research/casatlantic/index.html" target="_blank">
 										Centre for Advanced Studies - Atlantic</a> for the summer co-op term. 
-										<sup><a href="https://www.indeed.com/career-advice/finding-a-job/jobs-with-co-op"> What is a co-op?</a></sup>
+										<sup><a href="https://www.indeed.com/career-advice/finding-a-job/jobs-with-co-op"> What is a co-op?</a></sup> </br>
+										
+										Currently I am open to any <b>tech-related job</b>, including but not 
+										limited to fullstack software development role, big data and/or parallel computing. I am also open to any research-focused 
+										positions as well.
 									</p>
 								</div>
 							</section>
@@ -124,7 +143,8 @@
 											<div class="inner">
 
 												<p>Math Olympiad is a prestigious and festive event in Bangladesh. Every year, the IMO (International Mathematics
-													Olympiad) team of Bangladesh is formed from the winners of this nationwide competition. In 2011, I became
+													Olympiad) team of Bangladesh is formed from the winners of this nationwide competition (You can consider
+													this as equivalent to AMC-12/AIME). In 2011, I became
 													Champion of the Champions in the Junior Category (leftmost in the picture, along with other CoCs 
 													from other categories).</p>
 											</div>
@@ -175,37 +195,48 @@
 										<li class="icon solid fa-users">Shadow clone technique</li>
 									</ul> -->
 									<ul>
-										<li>During my RA internship at NRC, the goal of my work was to gather domain knowledge in <b>knowledge graph representation</b> for <b>intrusion 
+										<li class="works-element"> During my RA internship at NRC, the goal of my work was to gather domain knowledge in <b>knowledge graph representation</b> for <b>intrusion 
 											detection</b> and <b>security automation</b>, focusing on red/blue team activities. A research paper is going to published soon based on this 
 											research along with Dr. Shahrear Iqbal and Dr. Euclides Neto as other authors. </li>
-										<li ><a href="https://github.com/Subangkar/Foodsquare-Web-App">FoodSquare</a> <br/>
+
+										<li class="works-element"> <a href="https://github.com/Subangkar/Foodsquare-Web-App">FoodSquare</a> <br/>
 										This is a web app that I prepared with my classmates as a Software Engineering term project. The Model and Controller was
 										prepared using <b>Django</b> framework, while the View consisted <b>HTML, CSS, Javascript</b>. I implemented most
 										parts of the frontend here.</li>
+
+										<li class="works-element"> <a href="https://github.com/iamsaquib2508/Interactive-Sandbox">Interactive Sandbox</a> <br/>
+											Interactive Sandbox is a lightweight, Tkinter-based desktop tool for running interactive programming challenges locally.
+											<sup><a href="https://codeforces.com/blog/entry/45307"> What is an interactive problem?</a></sup>
+											The purpose of the tool was to use it personally, but later it was decided to make it public.
+											The code was written with the help of <b>ChatGPT</b>, and the entirety of the code is in <b>Python</b>.
+											I have plans to convert it into a web tool in future, with probably using <b>ReactJS</b> framework.
+										
+											</li>
+
 										<!-- <ul>
 											<li >Django, Javascript</li>
 										</ul> -->
-										<li > <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20310%20Compiler/C%20Compiler%20Final">Partial C Compiler</a><br/>
+										<li class="works-element"> <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20310%20Compiler/C%20Compiler%20Final">Partial C Compiler</a><br/>
 										From some basic C code, this compiler can prepare corresponding assembly code (.asm) which can be run by emu086. I personally felt satisfied after
 										completing this project. <b>C, Flex, Bison</b> were used for this project.</li>
 										<!-- <img class="spotlight" alt="Image may contain:" style="width: 1080px; height: 546px;" aria-busy="false" src="images/banner2.jpg"> -->
 										<!-- <ul>
 											<li >Flex, Bison</li>
 										</ul> -->
-										<li > <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20108%20Object%20Oriented%20Programming/CSE%20108%20Project%201505018">
+										<li class="works-element"> <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20108%20Object%20Oriented%20Programming/CSE%20108%20Project%201505018">
 											Peer to Peer Torrent File Sharing System </a><br/>
 										This is a Java project to imitate the peer to peer file sharing system to some extent. Implemented the entire back end, using
 										multithreading and socket programming.</li>
 										<!-- <ul>
 											<li>Java, JavaFX</li>
 										</ul> -->
-										<li ><a href="https://github.com/Masum95/Hospital-Management-System-">Hospital Management System</a><br/>
+										<li class="works-element"> <a href="https://github.com/Masum95/Hospital-Management-System-">Hospital Management System</a><br/>
 										This is a Java project prepared by using Oracle database to manage a hospital database and <b>JDBC</b>. Implemented the database side and worked
 										on <b>SQL</b>.</li>
 										<!-- <ul>
 											<li >Java, Oracle</li>
 										</ul> -->
-										<li > <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20406%20Computer%20Security/DNS%20Cache%20Poisoning">
+										<li class="works-element"> <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20406%20Computer%20Security/DNS%20Cache%20Poisoning">
 											DNS Cache Poisoning Attack</a><br/>
 										This was a small security project to imitate the well known Kaminsky DNS cache poisoning attack. This was done by packet sniffing
 										using Wireshark and spoofing IP.</li>
@@ -213,7 +244,7 @@
 										<ul>
 											<li >C, Wireshark</li>
 										</ul> -->
-										<li > <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20102%20C%20programming/Term%20Project%20CSE%20102%20Swift%20Ball">
+										<li class="works-element"> <a href="https://github.com/iamsaquib2508/BUET_CSE_codes/tree/master/CSE%20102%20C%20programming/Term%20Project%20CSE%20102%20Swift%20Ball">
 											Rolling Ball</a><br/> 
 										This was my first project in my undergraduate days, in the first semester of BUET. This is an OpenGL game which is inspired from the famous 
 										Nokia mobile game Rapid Roll. Using simple C code, this was a fun, lightweight
@@ -221,7 +252,7 @@
 										<!-- <ul>
 											<li >C, iGraphics, OpenGL</li>
 										</ul>	 -->
-										<li > <a href="https://www.youtube.com/watch?v=ou7Bm-WyJiM"> Smart Carrier</a><br/>
+										<li class="works-element"> <a href="https://www.youtube.com/watch?v=ou7Bm-WyJiM"> Smart Carrier</a><br/>
 										This was a hardware project. It's about an autonomous car which can
 										carry small objects. An android app was also built to draw the path for the carrier. The
 										car could follow a path drawn on the app of ours.
@@ -231,7 +262,7 @@
 										</ul> -->
 
 
-										<li> <a>Undergraduate Thesis</a><br/>
+										<li class="works-element"> <a>Undergraduate Thesis</a><br/>
 										My undergraduate thesis work is about <b><i>Alignment-free Phylogenic Tree Construction using count data of K-mer</i></b>. Without using Character based or
 										Distance based method, we are trying to find out the phylogenic tree given a set of species' genetic information.
 										The thesis was supervised Atif Hasan Rahman, Associate Professor, CSE, BUET.</li>
@@ -255,27 +286,29 @@
 									<li class="icon solid fa-bolt">Lightning bolt</li>
 									<li class="icon solid fa-users">Shadow clone technique</li>
 								</ul> -->
-								<ul>
-									<li>I am a voluntary blood donor. Whenever I get the opportunity, I try to donate blood to the people in need.
+								<ul class="hobby-list">
+									<li> <i class="icon solid fa-syringe"></i>   I am a voluntary blood donor. Whenever I get the opportunity, I try to donate blood to the people in need.
 										Already I have donated blood 7 times, last donated April, 2022. 
 										<!-- If you need A+ blood in Fredericton in New Brunswick, let me know. -->
 									</li>
-									<li>I like to read a lot. I used to read fictions of any form since my childhood. Now I love to read non-fiction
+									<li><i class="icon solid fa-book"></i>  I like to read a lot. I used to read fictions of any form since my childhood. Now I love to read non-fiction
 										"serious" books as well.</li>
-									<li> Recently I started playing chess as a hobby. My ELO is around 950 on <a href="https://www.chess.com/member/saquib2508">chess.com</a>.
-										I also love Ficher Random Chess (commonly known as Chess 960) very much!
+									<li><i class="fas fa-chess"></i>   Recently I started playing chess as a hobby. My ELO is around 950 on <a href="https://www.chess.com/member/saquib2508">chess.com</a>.
+										I also love Fischer Random Chess (commonly known as Chess 960) very much!
 									</li>
-									<li>Besides Bangla and English, I intend to learn Spanish and French as well in the future. Currently, I have a 140+ day streak in Duolingo.</li>
-									<li>When I was a student, I made a Youtube channel named <a href="https://www.youtube.com/channel/UCSNeDyTLTuB-ECJxi6x7TUg">Psi Squared</a>
+									<li ><i class="fas fa-dove"></i>   Besides Bangla and English, I intend to learn Spanish and French as well in the future. Currently, I have a 410+ day streak in Duolingo.</li>
+									<li ><i class="fas fa-chalkboard-teacher"></i>   When I was a student, I made a Youtube channel named <a href="https://www.youtube.com/channel/UCSNeDyTLTuB-ECJxi6x7TUg">Psi Squared</a>
 										with three of my friends where we used to upload many videos explaining various CS topics in Bangla, my mother language. 
 										We couldn't continue this for long, but you're welcome to check them out!</li>
-									<li>I LOVE to watch TV Shows and Movies. Crime, Thriller and Mystery are my favourite genres.
-										Not a big fan of comedy, except Silicon Valley and The Office. The ending of this show touched me.</li>
-									<li>I don't like tea or coffee... or soft drinks like coke/soda, or any hard drinks. Just give me water! Ok, maybe lemon juice!</li>
-									<li>Watching videos of Trevor Noah, Veritasium, 3Blue1Brown, GothamChess on Youtube and is a common lightweight pastime for me.
+									<li ><i class="fas fa-tv"></i>   I LOVE to watch TV Shows and Movies. Crime, Thriller and Mystery are my favourite genres.
+										Not a big fan of comedy, except Silicon Valley and The Office. The ending of both these shows touched me.</li>
+									<li ><i class="fas fa-mug-hot"></i>   I don't like tea or coffee... or soft drinks like coke/soda, or any hard drinks. Just give me water! Ok, maybe lemon juice!</li>
+									<li ><i class="fa fa-play-circle"></i>   Watching videos of Trevor Noah, Veritasium, 3Blue1Brown, GothamChess on Youtube and is a common lightweight pastime for me.
+									</li>
+									<li ><i class="fas fa-gamepad"></i>   I like to call myself a gamer, but not in a traditional way. I play indie games, or offline version of AAA games. It's a peaceful life.
 									</li>
 									<!-- <li >I am a travel enthusiast. I love to travel around with my friends and my wife.</li> -->
-									<li>I care about animal welfare. I love animals, maybe more than anything! I'm especially fond of cats. I'm also a huge 
+									<li ><i class="fas fa-paw"></i>   I care about animal welfare. I love animals, maybe more than anything! I'm especially fond of cats. I'm also a huge 
 										fan of David Attenborough.</li>
 									<!-- <li >Lightning bolt</li>
 									<li >Shadow clone technique</li> -->
